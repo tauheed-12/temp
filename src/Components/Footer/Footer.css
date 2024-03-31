@@ -1,0 +1,95 @@
+.footer {
+    margin-top: 100px    ;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* Text color */
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    display: flex;
+    margin-left: 150px;
+}
+.right .eq{
+    margin-right: 100px;
+}
+.logo img{
+    width: 50px;
+}
+.logo img {
+     max-width: 100px; /*Adjust the max-width as needed */
+}
+
+.socialmediahandle a {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.socialmediahandle a:hover{
+    color:#000000 ;
+}
+span{
+    display: block;
+    padding-top: 40px;
+    /* margin-top: 30px; */
+}
+
+/* Style the subscribe input */
+.sub input[type="email"] {
+    padding: 10px;
+    width: 200px;
+}
+
+/* Style the links in the footer */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Tour Div Styles */
+.tour {
+    margin-bottom: 20px; /* Adjust the margin as needed for spacing */
+}
+
+.eq h3 {
+    border-bottom: 1.5px solid #fff; /* Underline style for headings */
+    padding-bottom: 5px; /* Adjust the padding as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed for spacing */
+    font-size: larger;
+}
+
+.tour a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px; /* Adjust the margin as needed for spacing */
+}
+
+.tour a:hover {
+    text-decoration: underline;
+}
+.company a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px; /* Adjust the margin as needed for spacing */
+}
+
+.company a:hover {
+    text-decoration: underline;
+}
+
+.right a:hover{
+font-size: larger;
+}

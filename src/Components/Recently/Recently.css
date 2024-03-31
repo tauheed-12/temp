@@ -1,0 +1,77 @@
+.recentlyaddedprop {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px; /* Adjust the gap between cards */
+    justify-content: space-around; /* Adjust alignment of cards */
+}
+
+/* Style for each card */
+.containerrecent {
+    width: 35%; /* Set the width of each card */
+    border: 1.5px solid #ccc; /* Gray border for each card */
+    border-radius: 10px; /* Border radius for rounded corners */
+    overflow: hidden; /* Hide any content overflow */
+    transition: box-shadow 0.3s ease; /* Add transition for hover effect */
+}
+
+.containerrecent:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Hover effect with shadow */
+}
+
+.lr {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the image in each card */
+.lr img {
+    margin-left: 20px;
+    width: 150px; /* Adjust the width of the image */
+    height: 150px; /* Adjust the height of the image */
+    border-radius: 10px; /* Border radius for the left side of the image */
+}
+
+/* Style for the right part containing the address, area, and posted details */
+.precentright {
+    margin-left: 25px;
+    flex: 1; /* Take remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px; /* Add padding for better spacing */
+}
+
+.add {
+    display: flex;
+    font-weight: bold;
+}
+
+.lr .rate {
+    border-radius: 5px;
+    align-items: center;
+    color: #ffffff;
+    padding: 5px;
+    background-color: #b8b6b6;
+}
+
+/* Style for the area div */
+.area {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; /* Adjust the gap between area items */
+}
+
+/* Style for the posted details */
+.posted {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-end; /* Align posted details to the right */
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #555; /* Optional: adjust the text color */
+}
+
+/* recently added part */
+
+/* Style for the main container */
+

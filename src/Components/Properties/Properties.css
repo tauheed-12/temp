@@ -1,0 +1,55 @@
+.text{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 80px 0;
+}
+.text p{
+    color: #889099;
+}
+
+    .read-more-card {
+        margin-bottom: 80px ;
+        display: flex;
+        background-color: white;
+        cursor: pointer;
+    }
+    .container:hover{
+        background-color: rgb(245, 245, 245);
+    }
+    .read-more-card p{
+        color: #889099;
+    }  
+    .container {
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content {
+        display: none;
+    }
+    label{
+        padding:  5px 10px;
+    }
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked + .content {
+        display: block;
+    }
+
+    label {
+        cursor: pointer;
+        color: rgb(52, 52, 155);
+        text-decoration: none;
+    } 
